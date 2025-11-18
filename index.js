@@ -79,9 +79,9 @@ class CutiMelahirkan extends Cuti {
 // Contoh Penggunaan
 // ===============================
 
-const karyawan1 = new CutiTahunan("Dewi");
-const karyawan2 = new CutiSakit("Budi");
-const karyawan3 = new CutiMelahirkan("Ayu");
+const karyawan1 = new CutiTahunan("Hadriawan");
+const karyawan2 = new CutiSakit("Lukman");
+const karyawan3 = new CutiMelahirkan("Ival");
 
 
 console.log(karyawan1.ajukan(11));
@@ -92,3 +92,4 @@ console.log(karyawan2.ajukan(2));
 
 console.log(karyawan3.ajukan(88));
 console.log(karyawan3.ajukan(33));
+
